@@ -1,5 +1,7 @@
 import Note from'./Note';
 import AddNote from './AddNote';
+import React from 'react';
+
 
 const NotesList = ({ notes , handleAddNote , handleDeleteNote }) => {
     return (
