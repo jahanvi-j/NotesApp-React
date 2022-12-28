@@ -1,6 +1,6 @@
 import NotesList from "./components/NotesList";
 import { nanoid } from 'nanoid';
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { MdDraw } from "react-icons/md";
 import Search from "./components/Search";
 import Header from "./components/Header";
